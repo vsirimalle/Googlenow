@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9651BEF51A6F30A70056B33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BEF41A6F30A70056B33E /* AppDelegate.swift */; };
+		9651BEF71A6F30A70056B33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BEF61A6F30A70056B33E /* ViewController.swift */; };
+		9651BEFA1A6F30A70056B33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEF81A6F30A70056B33E /* Main.storyboard */; };
+		9651BEFC1A6F30A70056B33E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEFB1A6F30A70056B33E /* Images.xcassets */; };
+		9651BEFF1A6F30A70056B33E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEFD1A6F30A70056B33E /* LaunchScreen.xib */; };
+		9651BF0B1A6F30A70056B33E /* GooglenowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BF0A1A6F30A70056B33E /* GooglenowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9651BF051A6F30A70056B33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9651BEE71A6F30A70056B33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9651BEEE1A6F30A70056B33E;
+			remoteInfo = Googlenow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9651BEEF1A6F30A70056B33E /* Googlenow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Googlenow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9651BEF31A6F30A70056B33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9651BEF41A6F30A70056B33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9651BEF61A6F30A70056B33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9651BEF91A6F30A70056B33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9651BEFB1A6F30A70056B33E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9651BEFE1A6F30A70056B33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9651BF041A6F30A70056B33E /* GooglenowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglenowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9651BF091A6F30A70056B33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9651BF0A1A6F30A70056B33E /* GooglenowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglenowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9651BEEC1A6F30A70056B33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651BF011A6F30A70056B33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9651BEE61A6F30A70056B33E = {
+			isa = PBXGroup;
+			children = (
+				9651BEF11A6F30A70056B33E /* Googlenow */,
+				9651BF071A6F30A70056B33E /* GooglenowTests */,
+				9651BEF01A6F30A70056B33E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9651BEF01A6F30A70056B33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9651BEEF1A6F30A70056B33E /* Googlenow.app */,
+				9651BF041A6F30A70056B33E /* GooglenowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9651BEF11A6F30A70056B33E /* Googlenow */ = {
+			isa = PBXGroup;
+			children = (
+				9651BEF41A6F30A70056B33E /* AppDelegate.swift */,
+				9651BEF61A6F30A70056B33E /* ViewController.swift */,
+				9651BEF81A6F30A70056B33E /* Main.storyboard */,
+				9651BEFB1A6F30A70056B33E /* Images.xcassets */,
+				9651BEFD1A6F30A70056B33E /* LaunchScreen.xib */,
+				9651BEF21A6F30A70056B33E /* Supporting Files */,
+			);
+			path = Googlenow;
+			sourceTree = "<group>";
+		};
+		9651BEF21A6F30A70056B33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9651BEF31A6F30A70056B33E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9651BF071A6F30A70056B33E /* GooglenowTests */ = {
+			isa = PBXGroup;
+			children = (
+				9651BF0A1A6F30A70056B33E /* GooglenowTests.swift */,
+				9651BF081A6F30A70056B33E /* Supporting Files */,
+			);
+			path = GooglenowTests;
+			sourceTree = "<group>";
+		};
+		9651BF081A6F30A70056B33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9651BF091A6F30A70056B33E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9651BEEE1A6F30A70056B33E /* Googlenow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9651BF0E1A6F30A70056B33E /* Build configuration list for PBXNativeTarget "Googlenow" */;
+			buildPhases = (
+				9651BEEB1A6F30A70056B33E /* Sources */,
+				9651BEEC1A6F30A70056B33E /* Frameworks */,
+				9651BEED1A6F30A70056B33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Googlenow;
+			productName = Googlenow;
+			productReference = 9651BEEF1A6F30A70056B33E /* Googlenow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9651BF031A6F30A70056B33E /* GooglenowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9651BF111A6F30A70056B33E /* Build configuration list for PBXNativeTarget "GooglenowTests" */;
+			buildPhases = (
+				9651BF001A6F30A70056B33E /* Sources */,
+				9651BF011A6F30A70056B33E /* Frameworks */,
+				9651BF021A6F30A70056B33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9651BF061A6F30A70056B33E /* PBXTargetDependency */,
+			);
+			name = GooglenowTests;
+			productName = GooglenowTests;
+			productReference = 9651BF041A6F30A70056B33E /* GooglenowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9651BEE71A6F30A70056B33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = vs;
+				TargetAttributes = {
+					9651BEEE1A6F30A70056B33E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9651BF031A6F30A70056B33E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9651BEEE1A6F30A70056B33E;
+					};
+				};
+			};
+			buildConfigurationList = 9651BEEA1A6F30A70056B33E /* Build configuration list for PBXProject "Googlenow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9651BEE61A6F30A70056B33E;
+			productRefGroup = 9651BEF01A6F30A70056B33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9651BEEE1A6F30A70056B33E /* Googlenow */,
+				9651BF031A6F30A70056B33E /* GooglenowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9651BEED1A6F30A70056B33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9651BEFA1A6F30A70056B33E /* Main.storyboard in Resources */,
+				9651BEFF1A6F30A70056B33E /* LaunchScreen.xib in Resources */,
+				9651BEFC1A6F30A70056B33E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651BF021A6F30A70056B33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9651BEEB1A6F30A70056B33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9651BEF71A6F30A70056B33E /* ViewController.swift in Sources */,
+				9651BEF51A6F30A70056B33E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651BF001A6F30A70056B33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9651BF0B1A6F30A70056B33E /* GooglenowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9651BF061A6F30A70056B33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9651BEEE1A6F30A70056B33E /* Googlenow */;
+			targetProxy = 9651BF051A6F30A70056B33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9651BEF81A6F30A70056B33E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9651BEF91A6F30A70056B33E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9651BEFD1A6F30A70056B33E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9651BEFE1A6F30A70056B33E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9651BF0C1A6F30A70056B33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9651BF0D1A6F30A70056B33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9651BF0F1A6F30A70056B33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Googlenow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9651BF101A6F30A70056B33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Googlenow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9651BF121A6F30A70056B33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GooglenowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Googlenow.app/Googlenow";
+			};
+			name = Debug;
+		};
+		9651BF131A6F30A70056B33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GooglenowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Googlenow.app/Googlenow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9651BEEA1A6F30A70056B33E /* Build configuration list for PBXProject "Googlenow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9651BF0C1A6F30A70056B33E /* Debug */,
+				9651BF0D1A6F30A70056B33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9651BF0E1A6F30A70056B33E /* Build configuration list for PBXNativeTarget "Googlenow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9651BF0F1A6F30A70056B33E /* Debug */,
+				9651BF101A6F30A70056B33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9651BF111A6F30A70056B33E /* Build configuration list for PBXNativeTarget "GooglenowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9651BF121A6F30A70056B33E /* Debug */,
+				9651BF131A6F30A70056B33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9651BEE71A6F30A70056B33E /* Project object */;
+}
