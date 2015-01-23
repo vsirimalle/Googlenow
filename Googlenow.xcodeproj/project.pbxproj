@@ -13,6 +13,7 @@
 		9651BEFC1A6F30A70056B33E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEFB1A6F30A70056B33E /* Images.xcassets */; };
 		9651BEFF1A6F30A70056B33E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9651BEFD1A6F30A70056B33E /* LaunchScreen.xib */; };
 		9651BF0B1A6F30A70056B33E /* GooglenowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BF0A1A6F30A70056B33E /* GooglenowTests.swift */; };
+		9651BF151A6F3A950056B33E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651BF141A6F3A950056B33E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9651BF041A6F30A70056B33E /* GooglenowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglenowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9651BF091A6F30A70056B33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9651BF0A1A6F30A70056B33E /* GooglenowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglenowTests.swift; sourceTree = "<group>"; };
+		9651BF141A6F3A950056B33E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				9651BEFB1A6F30A70056B33E /* Images.xcassets */,
 				9651BEFD1A6F30A70056B33E /* LaunchScreen.xib */,
 				9651BEF21A6F30A70056B33E /* Supporting Files */,
+				9651BF141A6F3A950056B33E /* SettingsViewController.swift */,
 			);
 			path = Googlenow;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				9651BEF71A6F30A70056B33E /* ViewController.swift in Sources */,
 				9651BEF51A6F30A70056B33E /* AppDelegate.swift in Sources */,
+				9651BF151A6F3A950056B33E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
